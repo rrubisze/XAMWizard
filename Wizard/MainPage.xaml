@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:wizardcontrol="clr-namespace:Wizard.Controls.WizardControl"
+             x:Class="Wizard.MainPage">
+    <StackLayout VerticalOptions="Center">
+        <wizardcontrol:Wizard
+            HorizontalOptions="Fill"
+            HeightRequest="60"
+            VerticalOptions="StartAndExpand"
+            Color="Blue"
+            CurrentStep="3"
+            NumberOfSteps="5"
+            LineThickness="3"
+            CircleStepSize="32"
+            LabelFontSize="10"
+            LabelFontAttributes="Italic"
+            LabelFontFamily=""
+            StepsLabels="{Binding Labels}"></wizardcontrol:Wizard>
+        <StackLayout>
+            <Label Text="Hello World"></Label>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
