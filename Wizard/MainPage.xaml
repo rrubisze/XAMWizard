@@ -16,9 +16,6 @@
             LabelFontAttributes="Italic"
             LabelFontFamily=""
             StepsLabels="{Binding Labels}"></wizardcontrol:Wizard>
-        <StackLayout>
-            <Label Text="Hello World"></Label>
-        </StackLayout>
     </StackLayout>
 
 </ContentPage>

@@ -17,6 +17,6 @@ namespace Wizard
             BindingContext = this;
         }
 
-        public ObservableCollection<string> Labels { get; set; } = new ObservableCollection<string>(new List<string>() { "Label33", "Label333", "Label12345", "Label12", "Label123", "DosLabel" });
+        public ObservableCollection<string> Labels { get; set; } = new ObservableCollection<string>(new List<string>() { "Item1", "Item2", "Item3", "Item4", "Item5" });
     }
 }
